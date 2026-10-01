@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brew: Privacy Policy</title>
+<meta name="description" content="How the Brew coffee app handles your data.">
+<style>
+  :root { --bg: #16100C; --surface: #221812; --text: #F3E7D3; --muted: #C2AE97; --accent: #D9A05B; --line: #3E2D22; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, "Segoe UI", Roboto, system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2.2em 0 0.5em; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); margin: 0 0 2em; }
+  ol, ul { padding-left: 1.3em; }
+  li { margin: 0.4em 0; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:hover { color: #E8B97A; }
+  strong { font-weight: 600; }
+  footer { margin-top: 3em; padding-top: 1.2em; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+  ::selection { background: var(--accent); color: var(--bg); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Brew: Privacy Policy</h1>
+  <p class="meta">Effective 1 October 2026</p>
+
+  <p>Brew is a personal coffee app. It has no accounts, no advertising and no analytics. Almost everything stays on your phone.</p>
+
+  <h2>What stays on your phone</h2>
+  <p>Your coffees, bags, brew logs, ratings, recipes, settings and bag photos are stored only on your device, in the app’s private storage. The developer cannot see them. If you add a Claude API key, it is kept in your phone’s secure storage (Keychain on iPhone, Keystore on Android).</p>
+
+  <h2>What leaves your phone, and when</h2>
+  <p>Brew sends information off your device only in these three cases:</p>
+  <ol>
+    <li><strong>Barcode lookup.</strong> When you scan a bag’s barcode that Brew doesn’t recognise, the barcode number is sent to <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a> to look up the product’s name, brand and picture. Only the barcode number is sent.</li>
+    <li><strong>Label scan (optional).</strong> When you tap <em>Scan label</em> and take a photo, that photo is sent to <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> using the API key you entered, so Claude can read the label. This happens only when you choose it, and the photo goes to your own Anthropic account. It is handled under Anthropic’s terms and privacy policy.</li>
+    <li><strong>App updates.</strong> Brew checks Expo’s update service for new versions when it opens. This sends basic technical information needed to deliver updates, such as the app version, platform and a random install identifier. See <a href="https://expo.dev/privacy">Expo’s privacy policy</a>.</li>
+  </ol>
+  <p>All of these connections are encrypted (HTTPS).</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Camera:</strong> to scan barcodes and photograph coffee bags, only when you use those features.</li>
+    <li><strong>Notifications:</strong> for low-stock and freshness reminders. These are created on your phone; nothing is sent to a server.</li>
+    <li><strong>Vibration:</strong> for brew-timer cues.</li>
+  </ul>
+
+  <h2>Deleting your data</h2>
+  <p>You can delete any coffee, bag or brew inside the app. Uninstalling Brew removes all of its data from your phone. The developer holds no copy of your data, so there is nothing to request deletion of.</p>
+
+  <h2>Children</h2>
+  <p>Brew is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted at this address with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:jtclarke23@gmail.com">jtclarke23@gmail.com</a></p>
+
+  <footer>Brew · a personal coffee app</footer>
+</main>
+</body>
+</html>
